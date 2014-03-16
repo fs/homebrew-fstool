@@ -5,7 +5,7 @@ Installation
 ---
 
 ```shell
-brew tap fs/fs-tool
+brew tap fs/fstool
 brew install fs-tool
 ```
 
