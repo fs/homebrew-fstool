@@ -2,10 +2,10 @@ require "formula"
 
 class FsTool < Formula
   homepage "http://fs.github.io/fs-tool/"
-  version "1.0.0"
+  version "1.5.0"
 
-  url "https://github.com/fs/fs-tool/archive/1.0.0.tar.gz"
-  sha1 "f0d578257f89003fa86b02eb2d6e198ec8dda68a"
+  url "https://github.com/fs/fs-tool/archive/1.5.0.tar.gz"
+  sha1 "90118353b01f3bfe9dbfab08b4277a8ca68a9512"
 
   def install
     bin.install Dir['bin/**']
