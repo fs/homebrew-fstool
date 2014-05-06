@@ -2,11 +2,11 @@ require "formula"
 
 class FsTool < Formula
   homepage "http://fs.github.io/fs-tool/"
-  version "1.6.0"
+  version "1.6.1"
 
-  url "https://github.com/fs/fs-tool/archive/1.6.0.tar.gz"
-  sha1 "7e0113112077ee67e4d1fb303057e76c504622ae"
-
+  url "https://github.com/fs/fs-tool/archive/1.6.1.tar.gz"
+  sha1 "63b968aaef640ada2db0dbfe163ad8d0d913e007"
+  
   def install
     bin.install Dir['bin/**']
     libexec.install Dir['libexec/**']
