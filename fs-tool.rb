@@ -5,7 +5,7 @@ class FsTool < Formula
   version "1.7.0"
 
   url "https://github.com/fs/fs-tool/archive/1.7.0.tar.gz"
-  sha256 "aee2046c843be1e4055923f06f6ad0f53b1e1393596c070aa2e05569e0289f91"
+  sha256 "85cce3ef6b88edeb426dc650fc6daf69f5bced193072696009f31a7a16e1382c"
 
   def install
     bin.install Dir['bin/**']
